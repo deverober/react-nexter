@@ -1,43 +1,24 @@
 import '../scss/main.scss'
+import Sidebar from './Sidebar';
+import Header from './Header';
+import Realtors from './Realtors';
+import Features from './Features';
+import Story from './Story';
+import Homes from './Homes';
+import Gallery from './Gallery';
+import Footer from './Footer';
 
 function App() {
   return (
     <div className='container'>
-      <div className='sidebar'>
-        Sidebar
-      </div>
-
-      <header className='header'>
-        Header
-      </header>
-
-      <div className="realtors">
-        Top 3 Realtors
-      </div>
-
-      <section className="features">
-        Features
-      </section>
-
-      <div className="story__pictures">
-        Story pictures
-      </div>
-
-      <div className="story__content">
-        Story content
-      </div>
-
-      <section className="homes">
-        Homes
-      </section>
-
-      <section className="gallery">
-        Gallery
-      </section>
-
-      <footer className="footer">
-        Footer
-      </footer>
+      <Sidebar />
+      <Header />
+      <Realtors />
+      <Features />
+      <Story />
+      <Homes />
+      <Gallery />
+      <Footer />
     </div>
   );
 }
