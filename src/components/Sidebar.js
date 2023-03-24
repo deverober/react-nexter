@@ -1,7 +1,7 @@
 export default function Sidebar() {
     return (
         <div className="sidebar">
-            Sidebar
+            <button className="nav-btn"></button>
         </div>
     )
 }
